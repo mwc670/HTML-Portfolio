@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     color: #ff9f71;
     margin: 5px;
@@ -14,8 +14,8 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
-    color: #f5aa87;
+    font-size: 50px;
+    color: #ffffff;
 
 }
 
@@ -43,7 +43,9 @@ a {
 .projectGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -53,7 +55,7 @@ a {
     background-color: #011520;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 10px;
     gap: 50px;
     font-size: 35px;
@@ -72,15 +74,18 @@ a {
     gap: 20px;
     background-color: #011520;
     padding: 15px;
-    font-size: 22px;
+    font-size: 26px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.textForLink {
+    color: #ffa025;
+}
+
 #bannerImg {
-    width: 95vw;
+    width: 98%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 10px;
+
 
 }
